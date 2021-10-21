@@ -1,0 +1,72 @@
+body {
+  background-image: url("https://wallpaperaccess.com/full/2460992.jpg");
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #0af286;
+}
+p {
+  text-align: center;
+  font-size: 50px;
+  color: #32805b;
+}
+h2 {
+  text-align: center;
+  font-size: 100px;
+  color: black;
+  opacity: 0.3;
+}
+a {
+  font-weight: italic;
+  font-size: 70px;
+  color: red;
+  font-style: arial;
+}
+h1.title {
+  color: red;
+}
+marquee {
+  text-align: center;
+}
+
+/* #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+} */
+
+/* .heart {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  transform: rotate(-45deg);
+}
+.heart::after {
+  background-color: red;
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0px;
+  left: 25px;
+}
+.heart::before {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: -25px;
+  left: 0px;
+} */

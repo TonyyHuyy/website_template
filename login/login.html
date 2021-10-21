@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/png" href="/img/logo.png" />
+    <!-- TITLE HTML login -->
+    <title>Đăng nhập</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- SET ICON FAECBOOK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+    />
+    <!-- link rel css -->
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <!-- SIGNUP ĐĂNG KÝ FULL HTML -->
+    <div class="wrapper">
+      <div class="signup">
+        <div class="heading-signup">
+          <p class="heading">Đăng ký</p>
+          <!-- NOT USED SIGN UP Facebook -->
+          <!-- <a href="https://facebook.com/" class="sign-up__facebook">
+            <i class="fa fa-facebook"></i>
+            <span></span>
+          </a> -->
+        </div>
+        <div class="signup-desc">
+          <span>Hoặc</span>
+        </div>
+        <form action="" class="form">
+          <div class="input-name">
+            <div class="input-group input-group__name">
+              <label for="name" class="form-label">Họ</label>
+              <input
+                type="text"
+                class="form-input"
+                id="name"
+                placeholder="Họ"
+              />
+            </div>
+            <div class="input-group input-group__name">
+              <label for="username" class="form-label">Tên</label>
+              <input
+                type="text"
+                class="form-input"
+                id="username"
+                placeholder="Tên"
+              />
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-input" placeholder="Nhập Email" />
+          </div>
+          <div class="input-group">
+            <label for="password" class="form-label">Mật khẩu</label>
+            <input
+              type="password"
+              class="form-input"
+              placeholder="Điền mật khẩu"
+            />
+          </div>
+          <div class="input-group">
+            <label for="password" class="form-label">Nhập lại mật khẩu</label>
+            <input
+              type="password"
+              class="form-input"
+              placeholder="Nhập lại mật khẩu"
+            />
+          </div>
+          <div class="form-checkbox">
+            <input
+              type="checkbox"
+              name="checkbox"
+              id="checkbox"
+              class="input-checkbox"
+            />
+            <label for="checkbox" class="form-checkbox__text"
+              >Tôi đã chấp nhận và đồng ý với các điều khoản đã đặt ra
+              <a href="#">(I have accepted and agree to the terms set forth)</a>
+              Bạn có thể nhấp vào ô vuông, Phía trên để ĐỒNG Ý<a href="#"
+                >You can click on the square, Above to AGREE!.</a
+              ></label
+            >
+          </div>
+          <button type="submit" class="form-submit">Tạo tài khoản</button>
+          <p class="form-signin">
+            Bạn đã có tài khoản? <a href="#">Đăng nhập</a>
+          </p>
+        </form>
+      </div>
+      <!-- SIGN IN ĐĂNG NHẬP FULL HTML -->
+      <div class="signin">
+        <div class="heading-signup">
+          <p class="heading">Đăng nhập</p>
+          <a href="https://facebook.com/" class="sign-up__facebook">
+            <i class="fa fa-facebook"></i>
+            <span>Đăng nhập bằng Facebook</span>
+          </a>
+        </div>
+        <div class="signup-desc">
+          <span>Hoặc</span>
+        </div>
+        <form action="" class="form">
+          <div class="input-group">
+            <label for="email" class="form-label">Tài khoản hoặc Email</label>
+            <input
+              type="text"
+              class="form-input"
+              placeholder="Điền tài khoản"
+            />
+          </div>
+          <div class="input-group">
+            <label for="password" class="form-label">Mật khẩu</label>
+            <input
+              type="password"
+              class="form-input"
+              placeholder="Điền mật khẩu"
+            />
+          </div>
+          <button type="submit" class="form-submit">Đăng nhập</button>
+          <!-- <button type="submit" class="form-submit-signup"></button> -->
+          <p class="form-signup"><a href="#">Đăng ký tại đây</a></p>
+        </form>
+      </div>
+    </div>
+    <!-- LINK REL JAVASCRIPT -->
+    <script src="js/login.js"></script>
+  </body>
+</html>

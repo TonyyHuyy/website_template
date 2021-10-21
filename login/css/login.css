@@ -1,0 +1,210 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: #3175eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup {
+  background-color: #6fd7f7;
+  width: 500px;
+  max-width: 100%;
+  border-radius: 10px;
+  padding: 24px 20px;
+  display: none;
+}
+.heading {
+  font-size: 3.6rem;
+  text-align: center;
+  font-weight: bold;
+  line-height: 4.5rem;
+  margin: 14px 0;
+  color: transparent;
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.sign-in__faecbook {
+  width: 100%;
+  background-color: #4462f5;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px 10px;
+  position: relative;
+  margin: 20px 0 20px 0;
+}
+.sign-in__faecbook i {
+  background-color: #8adaf2;
+  padding: 14px;
+  border-radius: inherit;
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  transform: translateY(-50%);
+  color: #2c4beb;
+}
+.sign-in__faecbook span {
+  color: #8adaf2;
+}
+.signup-desc {
+  text-align: center;
+  position: relative;
+  margin-bottom: 22px;
+}
+.signup-desc span {
+  padding: 15px;
+  background-color: #8adaf2;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+}
+.signup-desc::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 2px;
+  background-color: #8adaf2;
+  z-index: 1;
+}
+.input-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input-group__name {
+  width: 48%;
+  flex-shrink: 0;
+  transition: all 0.25s linear;
+}
+.form-label {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+.form-input {
+  outline: none;
+  border: 1px solid transparent;
+  background-color: #f3f3f4;
+  border-radius: 8px;
+  padding: 12px 8px;
+  font-size: 1.6rem;
+  width: 100%;
+  font-weight: 400;
+  transition: all 0.25s linear;
+}
+.form-input:focus {
+  background-color: #8adaf2;
+  border: 1px solid #333;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.input-group {
+  margin-bottom: 12px;
+}
+.form-checkbox {
+  display: flex;
+  justify-content: space-between;
+}
+.input-checkbox {
+  margin-right: 10px;
+  flex-shrink: 0;
+  cursor: pointer;
+  margin-top: 4px;
+}
+.form-checkbox__text {
+  font-size: 1.4rem;
+  color: #333;
+  font-weight: 300;
+  cursor: pointer;
+  line-height: 1.4;
+}
+.form-submit {
+  margin: 16px 0;
+  display: inline-block;
+  padding: 12px 46px;
+  background-color: #007fff;
+  outline: none;
+  border: 0;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+  font-size: 1.6rem;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  transition: 0.25s linear;
+}
+/* .form-submit-signup {
+  margin: 16px 0;
+  display: inline-block;
+  padding: 12px 46px;
+  background-color: #007fff;
+  outline: none;
+  border: 0;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+  font-size: 1.6rem;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  transition: 0.25s linear;
+}
+.form-submit-signup:hover {
+  opacity: 0.8;
+} */
+.form-submit:hover {
+  opacity: 0.8;
+}
+
+.signin {
+  background-color: #8adaf2;
+  width: 500px;
+  height: 60%;
+  max-width: 100%;
+  border-radius: 10px;
+  padding: 24px 20px;
+}
+.form-signup {
+  text-align: right;
+}
+.form-signup a {
+  padding: 10px;
+  border-radius: 6px;
+  transition: all 0.25s linear;
+}
+.form-signup a:hover {
+  background-color: #8adaf2;
+}
+.form-signin a {
+  padding: 10px;
+  border-radius: 6px;
+  transition: all 0.25s linear;
+}
+.form-signin a:hover {
+  background-color: #8adaf2;
+}
